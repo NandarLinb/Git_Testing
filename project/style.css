@@ -1,0 +1,358 @@
+:root{
+    --Primary-Strong-Cyan: hsl(171, 66%, 44%);
+    --Light-Blue: hsl(233, 100%, 69%);
+    --Neutral-Dark-Grayish-Blue: hsl(210, 10%, 33%);
+    --Grayish-Blue: hsl(201, 11%, 66%);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+footer{
+    background-color: hsl(197, 23%, 94%);
+    padding: 10px;
+}
+@media screen and (max-width:1440px){
+    body{
+        font-size: 18px;
+        background-image: url(../images/bg-header-desktop.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .first{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       margin-top: 120px;
+    }
+     
+    .first .loco{
+        width: 6%;
+        margin-bottom: 35px;
+    }
+    .title{
+      font-size: 180% !important;
+       margin-bottom: 20px;
+       word-spacing: 5px;
+    }
+    .text{
+       width: 35%;
+       text-align: center;
+       font-size:15px;
+       color: var(--Grayish-Blue);
+       margin-bottom: 20px;
+    }
+    .buttons{
+       
+    }
+    button{
+        padding: 10px 20px;
+        color: #fff;
+        border: none;
+        border-radius: 20px;
+        outline: none;
+        user-select: none;
+    }
+    button:hover{
+        cursor:pointer;
+    }
+    .buttons .btn1{
+      background-color: var(--Primary-Strong-Cyan);
+    }
+    .buttons .btn2{
+      background-color: var(--Light-Blue);
+    }
+    .second{
+      margin-top: 80px;
+    }
+    .second-text{
+        display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+    .second-sub{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 40px;
+    }
+    .second-sub img{
+       width: 40%;
+       margin-left: -50px;
+    }
+    .secondlisttext{
+       width: 50%;
+    }
+    .list{
+      margin-bottom: 20px;
+    }
+    .listtitle{
+      font-size: 140%;
+      margin-bottom: 10px;
+    }
+    .listtext{
+       width: 50%;
+       font-size:15px;
+       color: var(--Grayish-Blue);
+    }
+    .third{
+        margin-top: 60px;
+        display: flex;
+        flex-direction:column;
+    }
+    .third img{
+        width: 48%;
+        margin-top: 40px;
+        align-self: center;
+    }
+    .fourth{
+        margin: 50px;
+    }
+    .locotextlist{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .ltlist{
+       width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       margin-top: 30px;
+    }
+    .ltlist p{
+        text-align: center;
+        width: 70%;
+    }
+    .ltlist img{
+        margin-bottom: 30px;
+    }
+    .locolist{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 100px auto;
+    }
+    .locolist img{
+        width: 8%;
+        
+    }
+    .five{
+        margin-top: 120px;
+        background-color: hsl(197, 23%, 94%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+    .five img{
+      width: 4%;
+      margin-right: 20px;
+      margin-left: 15px;
+    }
+    .five .menulist{
+      width: 35%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .mlist{
+        margin-right: 40px;
+        font-size: 16px;
+    }
+    .mlist:last-child{
+        align-self: flex-start;
+    }
+    .five .sociallist{
+     width: 30%;
+     display: flex;
+     justify-content: flex-end;
+    }
+    .five .sociallist img{
+        width: 20px;
+        text-align: right;
+    }
+}
+
+
+@media screen and (max-width:700px){
+    body{
+        font-size: 18px;
+        background-image: url(../images/bg-header-mobile.png);
+        background-size: cover;
+       
+    }
+    .first{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       margin-top: 80px;
+    }
+     
+    .first .loco{
+        width: 15%;
+        margin-bottom: 35px;
+    }
+    .title{
+        padding: 10px 30px;
+        text-align: center;
+      font-size: 165% !important;
+       word-spacing: 3px;
+    }
+    .text{
+       width: 80%;
+       text-align: center;
+       font-size:15px;
+       color: var(--Grayish-Blue);
+       margin-bottom: 20px;
+    }
+    .buttons{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       width: 100%;
+    }
+    button{
+        padding: 10px 20px;
+        color: #fff;
+        border: none;
+        border-radius: 20px;
+        outline: none;
+        user-select: none;
+        width: 80%;
+        margin-bottom:15px;
+    }
+   
+    .second{
+      margin-top: 60px;
+    }
+  
+    .second-sub{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-top: 40px;
+    }
+    .second-sub img{
+       width: 80%;
+       margin-left: 10px;
+       margin-bottom: 35px;
+    }
+    .secondlisttext{
+       width: 85%;
+    }
+    .list{
+      margin-bottom: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .listtitle{
+      font-size: 140%;
+      margin-bottom: 10px;
+    }
+    .listtext{
+       width: 90%;
+       text-align: center;
+       font-size:15px;
+       color: var(--Grayish-Blue);
+    }
+    .third{
+        margin-top: 40px;
+        display: flex;
+        flex-direction:column;
+    }
+    .third img{
+        width: 80%;
+        margin-top: 40px;
+        align-self: center;
+    }
+    .fourth{
+        margin: 50px;
+    }
+    .locotextlist{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .ltlist{
+       width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       margin-top: 30px;
+    }
+    .ltlist p{
+        text-align: center;
+        width: 100%;
+    }
+    .ltlist img{
+        margin-bottom: 30px;
+    }
+    .locolist{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        margin: 50px auto;
+    }
+    .locolist img{
+        width: 35%;
+        margin-bottom: 40px;
+        
+    }
+    .five{
+        margin-top: 50px;
+        background-color: hsl(197, 23%, 94%);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+    .five img{
+      width: 15%;
+      margin-right: 20px;
+      margin-left: 15px;
+    }
+    .five .menulist{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+    }
+    .mlist{
+         text-align: center;
+        margin: 0 auto;
+       
+    }
+  .mlist p{
+      margin-top: 10px;
+      margin-bottom: 20px;
+  }
+    .five .sociallist{
+     width: 30%;
+     display: flex;
+     justify-content: center;
+     margin: 20px auto;
+    }
+    .five .sociallist img{
+        width: 20px;
+        text-align: center;
+    }
+}
